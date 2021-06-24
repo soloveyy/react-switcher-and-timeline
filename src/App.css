@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
 .App {
   text-align: center;
 }
@@ -7,32 +9,59 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  margin-top: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.buttons-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 20%;
+}
+
+.project {
+  margin-top: 30px;
+}
+
+.card-switcher {
+  width: 25%;
+  height: 200px;
+  /* display: flex; */
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.switcher {
+  color: #3eb281;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo-img {
+  padding-top: 10px;
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+}
+
+.card-content {
+  color: #9c9c9c;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.card-timeline {
+  background-color: #dfe6e9;
+  width: 50%;
+  height: 200px;
+  /* display: flex; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  ;
+}
+
+.slider-timeline {
+  margin-top: 50px;
 }
