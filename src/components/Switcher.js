@@ -1,6 +1,5 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
-import clsx from 'clsx'
 import Switch from '@material-ui/core/Switch';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
@@ -50,7 +49,7 @@ const styles = {
           image={logo}
           title=""
         /> */}
-        <img src={logo} className="logo-img" alt="" srcset="" />
+        <img src={logo} className="logo-img" alt="Logo" />
         <CardContent className="card-content">SOLOVEY</CardContent>
         <Switch
         className="switcher"
